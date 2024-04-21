@@ -1,0 +1,16 @@
+#include <iostream>
+#include "sum.h"
+#include "prod.h"
+#include "dif.h
+#include "quot.h"
+
+using namespace std;
+
+int main()
+{
+   cout<<"Hello World!!!<<endl;
+   cout <<"Sum ="<<sum(12,23)<<endl;
+   cout <<"Prod ="<<prod(2,2)<<endl;
+   cout <<"Dif ="<<dif(23,12)<<endl;
+   cout <<"Dif ="<<quot(23,12)<<endl;
+}
